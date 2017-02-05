@@ -15,6 +15,7 @@
 		30454A011E46C13400D4E947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304549FF1E46C13400D4E947 /* LaunchScreen.storyboard */; };
 		30454A0C1E46C13400D4E947 /* XXCoreDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30454A0B1E46C13400D4E947 /* XXCoreDataManagerDemoTests.m */; };
 		30454A171E46C13400D4E947 /* XXCoreDataManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30454A161E46C13400D4E947 /* XXCoreDataManagerDemoUITests.m */; };
+		30454A271E46C21700D4E947 /* XXCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30454A261E46C21700D4E947 /* XXCoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		30454A121E46C13400D4E947 /* XXCoreDataManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCoreDataManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30454A161E46C13400D4E947 /* XXCoreDataManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCoreDataManagerDemoUITests.m; sourceTree = "<group>"; };
 		30454A181E46C13400D4E947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30454A251E46C21700D4E947 /* XXCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXCoreDataManager.h; sourceTree = "<group>"; };
+		30454A261E46C21700D4E947 /* XXCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXCoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		304549F01E46C13400D4E947 /* XXCoreDataManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				30454A241E46C1F800D4E947 /* XXCoreDataManager */,
 				304549F41E46C13400D4E947 /* AppDelegate.h */,
 				304549F51E46C13400D4E947 /* AppDelegate.m */,
 				304549F71E46C13400D4E947 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				30454A181E46C13400D4E947 /* Info.plist */,
 			);
 			path = XXCoreDataManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		30454A241E46C1F800D4E947 /* XXCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				30454A251E46C21700D4E947 /* XXCoreDataManager.h */,
+				30454A261E46C21700D4E947 /* XXCoreDataManager.m */,
+			);
+			path = XXCoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30454A271E46C21700D4E947 /* XXCoreDataManager.m in Sources */,
 				304549F91E46C13400D4E947 /* ViewController.m in Sources */,
 				304549F61E46C13400D4E947 /* AppDelegate.m in Sources */,
 				304549F31E46C13400D4E947 /* main.m in Sources */,
