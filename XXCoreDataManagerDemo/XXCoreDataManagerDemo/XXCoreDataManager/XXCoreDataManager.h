@@ -29,7 +29,7 @@
 - (void)deleteEntityWithEntityName:(NSString *)entityName withPredStr:(NSString *)predStr;
 
 //update obj
-- (void)updateNSManagedObject;
+- (void)updateEntity;
 
 //search results frome entity with predStr
 // if predStr is nil ,search the all from entity

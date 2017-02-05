@@ -137,7 +137,7 @@
 //int i = 0;
 //message.count = [NSNumber numberWithInt:i];
 //[self updateNSManagedObject];
-- (void)updateNSManagedObject{
+- (void)updateEntity{
     [self saveContext];
 }
 
